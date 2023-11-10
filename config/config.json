@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "kenguru",
+    "password": "|uje%LP=|29gND",
+    "database": "default_db",
+    "host": "81.200.156.145",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "test": {
+    "username": "kenguru",
+    "password": "|uje%LP=|29gND",
+    "database": "default_db",
+    "host": "81.200.156.145",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "production": {
+    "username": "kenguru",
+    "password": "|uje%LP=|29gND",
+    "database": "default_db",
+    "host": "81.200.156.145",
+    "dialect": "mysql",
+    "port": 3306
+  }
+}
