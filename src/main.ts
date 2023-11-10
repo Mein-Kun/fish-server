@@ -20,10 +20,7 @@ async function bootstrap() {
   app.enableCors({
     credentials: true,
     methods: ['GET', 'POST', 'PATCH', 'DELETE'],
-    origin: [
-      'https://shopfishsite.onrender.com',
-      'https://shopfishclient.onrender.com',
-    ],
+    origin: ['https://shopfishsite.onrender.com'],
   });
 
   const config = new DocumentBuilder()
