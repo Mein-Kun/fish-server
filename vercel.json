@@ -1,5 +1,14 @@
 { 
     "version": 2,
+    "env": {
+        "SQL_LOGGING": "true",
+        "SQL_DIALECT": "mysql",
+        "DATABASE_HOST": "81.200.156.145",
+        "DATABASE_PORT": "3306",
+        "DATABASE_USER": "kenguru",
+        "DATABASE_PASSWORD": "|uje%LP=|29gND",
+        "DATABASE_NAME": "default_db"
+    },
     "builds": [
         {
             "src": "src/main.ts",
@@ -13,7 +22,7 @@
             "methods": [
                 "GET",
                 "POST",
-                "PATCH",
+                "PUT",
                 "DELETE"
             ]
         }

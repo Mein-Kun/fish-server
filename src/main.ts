@@ -21,7 +21,7 @@ async function bootstrap() {
     methods: ['GET', 'POST', 'PATCH', 'DELETE'],
     origin: [
       'https://shopfishclient.onrender.com',
-      'https://shopfishsite.onrender.com',
+      // 'https://shopfishsite.onrender.com',
     ],
   });
 
